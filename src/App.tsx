@@ -12,7 +12,6 @@ import WhyHireMe from './components/WhyHireMe';
 import ResumeCTA from './components/ResumeCTA';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ThemeToggle from './components/ThemeToggle';
 import ScrollToTop from './components/ScrollToTop';
 import LoadingScreen from './components/LoadingScreen';
 import TechMarquee from './components/TechMarquee';
@@ -50,7 +49,7 @@ const App: React.FC = () => {
         <LoadingScreen />
 
         {/* Global Utilities */}
-        <ThemeToggle />
+
         <Toaster position="bottom-center" />
 
         {/* Navigation */}
